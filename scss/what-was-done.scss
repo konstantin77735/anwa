@@ -139,3 +139,11 @@
         }
     }
 }
+
+@media screen and (max-width: 350px) {
+    .what-was-done {
+        br{
+            display: none !important;
+        }
+    }
+}
