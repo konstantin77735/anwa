@@ -1,0 +1,43 @@
+.about-client {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 90%;
+
+    &__title {
+        position: relative;
+        font-size: 7rem;
+    }
+
+    &__desc {
+        position: relative;
+        font-size: 2rem;
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-height: 980px;
+    }
+
+    .list {
+        margin-top: 100px;
+        padding-left: 22px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-client {
+        &__overlay {
+                max-height: 75%;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about-client {
+        &__title {
+            font-size: 5rem;
+        }
+    }
+}

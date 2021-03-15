@@ -1,0 +1,115 @@
+.nav {
+    max-width: 90%;
+    margin: 3% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 330px;
+
+
+    .headline {
+        z-index: 1;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+
+        grid-template-columns: minmax(199px, 635px) minmax(100px, 200px);
+        justify-content: flex-start;
+
+
+
+        .page-title {
+            font-size: 20rem;
+            width: auto;
+            display: block;
+            justify-self: start;
+        }
+
+        .logo {
+            max-width: 230px;
+            z-index: 1;
+        }
+    }
+
+    .offers {
+        z-index: 1;
+        font-size: 3rem !important;
+        grid-template-areas: 'case';
+        grid-template-columns: minmax(100px, 450px);
+        color: #FFF;
+        opacity: 0.4;
+        display: grid;
+        position: relative;
+        top: -70px;
+        margin: 0;
+    }
+
+    .case {
+        font-size: 3rem !important;
+        grid-area: case;
+    }
+
+    .offer {
+        font-size: 3rem !important;
+        grid-area: offer;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        .headline {
+            .page-title {
+                font-size: 16rem !important;
+            }
+
+            .logo {
+                max-width: 170px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav {
+        min-height: 130px;
+
+        .headline {
+            .page-title {
+                font-size: 15rem;
+            }
+
+            .logo {
+                max-width: 130px;
+            }
+
+        }
+
+        .offers {
+            top: -10px !important;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .nav {
+        .headline {
+            grid-template-columns: minmax(150px, 635px) minmax(100px, 200px);
+
+            .page-title {
+                font-size: 10rem;
+            }
+
+            .logo {
+                max-width: 100px;
+            }
+        }
+
+        .offers {
+            top: -42px;
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
