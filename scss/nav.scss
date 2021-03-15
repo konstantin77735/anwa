@@ -98,17 +98,17 @@
             grid-template-columns: minmax(150px, 635px) minmax(100px, 200px);
 
             .page-title {
-                font-size: 10rem;
+                font-size: 10rem !important;
             }
 
             .logo {
-                max-width: 100px;
+                max-width: 100px !important;
             }
         }
 
         .offers {
-            top: -42px;
-            position: relative;
+            top: -42px !important;
+            position: relative !important;
             z-index: 1;
         }
     }
