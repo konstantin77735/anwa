@@ -39,6 +39,14 @@ br {
     display: block !important;
 }
 
+@media screen and (max-width: 1300px) {
+    .footer {
+        .logo {
+            max-width: 100px;
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .footer {
         .arrow {
@@ -49,10 +57,13 @@ br {
 
 @media screen and (max-width: 650px) {
     .footer {
+        .logo {
+            max-width: 55px;
+        }
 
         .services {
             font-size: 1.85rem;
-            
+
         }
     }
 }
@@ -85,9 +96,9 @@ br {
 }
 
 @media screen and (max-width: 450px) {
-    
-    .footer{
-        .logo{
+
+    .footer {
+        .logo {
             font-size: 3rem;
         }
     }
