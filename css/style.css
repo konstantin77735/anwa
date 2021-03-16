@@ -1,5 +1,3 @@
-
-
 @charset "UTF-8";
 
 /* find-a-specialist: */
@@ -114,7 +112,7 @@
 .nav .offers {
   z-index: 1;
   font-size: 3rem !important;
-      grid-template-areas: 'case';
+          grid-template-areas: 'case';
   -ms-grid-columns: minmax(100px, 450px);
   grid-template-columns: minmax(100px, 450px);
   color: #FFF;
@@ -251,7 +249,7 @@
 }
 
 .footer .logo {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
   text-decoration: none;
 }
@@ -1184,6 +1182,10 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+  .footer .logo {
+    font-size: 3rem;
+  }
+
   .business-objectives__overlay {
     max-height: 75%;
   }

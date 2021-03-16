@@ -7,7 +7,7 @@
     position: relative;
 
     .logo {
-        font-size: 3rem;
+        font-size: 2rem;
         color: #fff;
         text-decoration: none;
     }
@@ -81,6 +81,15 @@ br {
     .footer:nth-of-type(3),
     .footer:nth-of-type(4) {
         margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .footer{
+        .logo{
+            font-size: 3rem;
+        }
     }
 }
 
